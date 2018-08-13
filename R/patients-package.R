@@ -5,5 +5,6 @@
 #' @keywords internal datagen
 #' @useDynLib patients, .registration = TRUE
 #' @importFrom Rcpp sourceCpp
+#' @importFrom icd.data assign_icd_data
 "_PACKAGE"
 

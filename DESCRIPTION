@@ -11,7 +11,7 @@ Description: Quickly generate large numbers of rows of patient
     data, with realistic comorbidities and characteristics.
 License: GPL-3
 Depends:
-    R (>= 3.5.1),
+    R (>= 3.5),
     icd.data
 Imports:
     Rcpp,
