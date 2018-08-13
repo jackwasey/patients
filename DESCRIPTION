@@ -2,7 +2,7 @@ Package: patients
 Title: Generate adult or pediatric patients with realistic
     characteristics and comorbidities
 Version: 0.0.0.9000
-Authors@R: 
+Authors@R:
     person(given = "Jack O.",
            family = "Wasey",
            role = c("aut", "cre", "cph"),
@@ -13,14 +13,15 @@ License: GPL-3
 Depends:
     R (>= 3.5.1),
     icd.data
-Imports: 
+Imports:
     Rcpp,
     physiology
 Suggests:
     icd,
     knitr,
-    testthat
-LinkingTo: 
+    testthat,
+    covr
+LinkingTo:
     Rcpp,
     testthat
 Encoding: UTF-8
