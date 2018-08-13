@@ -1,14 +1,29 @@
 Package: patients
-Title: What the Package Does (one line, title case)
+Title: Generate adult or pediatric patients with realistic
+    characteristics and comorbidities
 Version: 0.0.0.9000
-Authors@R: c(person(given = "Jack O.", family = "Wasey", role = c("aut", "cre", "cph"), email = "jack@jackwasey.com"))
-Description: What the package does (one paragraph).
-Depends: R (>= 3.5.1)
+Authors@R: 
+    person(given = "Jack O.",
+           family = "Wasey",
+           role = c("aut", "cre", "cph"),
+           email = "jack@jackwasey.com")
+Description: Quickly generate large numbers of rows of patient
+    data, with realistic comorbidities and characteristics.
 License: GPL-3
-Encoding: UTF-8
-LazyData: true
-LinkingTo: 
-    Rcpp
+Depends:
+    R (>= 3.5.1),
+    icd.data
 Imports: 
-    Rcpp
+    Rcpp,
+    physiology
+Suggests:
+    icd,
+    knitr,
+    testthat
+LinkingTo: 
+    Rcpp,
+    testthat
+Encoding: UTF-8
+Import: physiology
+LazyData: true
 RoxygenNote: 6.1.0
